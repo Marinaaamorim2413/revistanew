@@ -1,0 +1,130 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header{
+    background-color: #000000;
+    padding: 15px 0;
+    
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 126px;
+    right: 0;
+
+}
+
+nav li{
+ display: inline;
+ margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: #5f0000;
+    text-decoration: underline;
+
+}
+.img-new{
+    width: 350px;
+    
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1{
+    text-emphasis: none;
+    text-align: left;
+}
+h3{
+    font-weight: bold;
+    text-align: center ;
+    font-size: large;
+    margin: 2em;
+}
+
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px  25px;
+    
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+.enviar{
+    width: 30%;
+    padding: 10px 0;
+    background: rgb(236, 87, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+
+}
+.enviar:hover{
+    background-color: rgb(212, 138, 25);
+   
+}
+
+
+    .img-whats{
+        width: 300px;
+       
+        margin: 0 0 0 300px;
+        float: left;
+       
+    }
+
+.img-insta{
+    width: 300px;
+
+    margin: 0 0 0 300px;
+   
+}
+
+
+
+
+
+
+
+
+
